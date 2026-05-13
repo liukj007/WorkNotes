@@ -22,10 +22,11 @@ cp /xxx/xxx/ /xxx/xxx/xxx/ -r
 
 ---
 ## zip/unzip
-压缩单个文件/压缩多个文件/递归压缩目录
+压缩单个文件/压缩多个文件/压缩单个文件夹/递归压缩目录
 ```
 zip archive.zip example.txt
 zip archive.zip file1.txt file2.txt file3.txt
+zip archive.zip directory/
 zip -r archive.zip directory/
 ```
 解压缩
