@@ -15,9 +15,10 @@ Crtl+d
 cp /xxx/xxx/xx.x /xxx/xx.x
 cp /xxx/xxx/xx.x /xxx/
 ```
-复制文件夹下所有文件
+复制文件夹下所有文件（不创建/创建子目录）
 ```
-cp /xxx/xxx/ /xxx/xxx/xxx/ -r
+cp -r /xxx/xxx/* /xxx/xxx/xxx/
+cp -r /xxx/xxx/ /xxx/xxx/xxx/
 ```
 
 ---
