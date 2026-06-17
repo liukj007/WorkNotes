@@ -1,11 +1,13 @@
 # This is record for command!
 ---
 ## tmux
+新建/显示/连接/离开/向上滑动/删除
 ```
 tmux new -s session_name
 tmux ls
 tmux attach -t session_name
 Ctrl+b d
+Ctrl+b [ q
 Crtl+d
 ```
 ---
